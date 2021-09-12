@@ -10,8 +10,8 @@ import javax.persistence.*;
 @Setter
 @Getter
 @ToString
-@Table
-@Entity(name = "EMPLOYEE")
+@Entity
+@Table(name = "EMPLOYEE")
 public class Employee {
 
     @Id
